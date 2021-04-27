@@ -4,7 +4,7 @@ import Aux from '../../hoc/Auxiliary/Auxiliary';
 import Burger from '../../components/Burger/Burger';
 import BuildControls from '../../components/Burger/BuildControls/BuildControls';
 import axios from '../../axios-orders';
-import * as actionTypes from '../../store/actions';
+import * as actionTypes from '../../store/actions/actionTypes';
 
 import withErrorHandler from '../../hoc/withErrorHandler/withErrorHandler';
 import Modal from '../../components/UI/Modal/Modal';
